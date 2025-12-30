@@ -3,26 +3,6 @@ edition = "2021"
 name = "rusqlite_migration"
 readme = "README.md"
 
-authors.workspace = true
-categories.workspace = true
-description.workspace = true
-homepage.workspace = true
-keywords.workspace = true
-license.workspace = true
-repository.workspace = true
-rust-version.workspace = true
-version.workspace = true
-
-# Locally, run:
-#     RUSTDOCFLAGS="--cfg docsrs" cargo +nightly doc --all-features
-[package.metadata.docs.rs]
-# Document all features
-all-features = true
-rustdoc-args = ["--cfg", "docsrs"]
-
-[lints]
-workspace = true
-
 [features]
 default = []
 
